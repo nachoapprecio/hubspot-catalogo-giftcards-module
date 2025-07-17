@@ -1,0 +1,57 @@
+{
+  "name": "hubspot-catalogo-giftcards-module",
+  "version": "1.0.0",
+  "description": "Módulo personalizado de HubSpot para catálogo interactivo de gift cards con control total desde el CMS",
+  "main": "module.html",
+  "keywords": [
+    "hubspot",
+    "module",
+    "gift-cards",
+    "catalogo",
+    "ecommerce",
+    "cms",
+    "hubspot-cms",
+    "hubspot-module",
+    "interactive-catalog"
+  ],
+  "author": {
+    "name": "Ignacio Molina",
+    "email": "ignacio@apprecio.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nachoapprecio/hubspot-catalogo-giftcards-module.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nachoapprecio/hubspot-catalogo-giftcards-module/issues"
+  },
+  "homepage": "https://github.com/nachoapprecio/hubspot-catalogo-giftcards-module#readme",
+  "files": [
+    "module.html",
+    "module.css", 
+    "module.js",
+    "fields.json",
+    "meta.json",
+    "docs/"
+  ],
+  "engines": {
+    "hubspot": ">=1.0.0"
+  },
+  "hubspot": {
+    "moduleType": "custom",
+    "supportedTemplateTypes": ["PAGE", "BLOG_POST", "LANDING_PAGE"],
+    "isGlobal": false,
+    "tags": ["catalogo", "gift-cards", "ecommerce", "filtros", "personalizable"]
+  },
+  "scripts": {
+    "validate": "echo 'Validating HubSpot module files...'",
+    "deploy": "echo 'Deploy to HubSpot via GitHub integration'"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/nachoapprecio"
+  }
+}
